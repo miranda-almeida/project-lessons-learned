@@ -19,7 +19,7 @@ body {
 
 nav ul li {
   display: inline-block;
-  padding: 0 20px 0 20px;
+  padding: 0 20px;
 }
 
 nav ul {
@@ -29,7 +29,7 @@ nav ul {
 
 h1 {
   text-align: center;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   margin-top: 20px;
   color: blueviolet;
 }
@@ -38,15 +38,15 @@ h1 {
   display: inline-block;
   margin: 120px 40px 0 0;
   width: 250px;
-  border-radius: 0 0 50% 0;
+  border-radius: 0 0 50%;
 }
 
-ul, ol {
-    display: block;
-    padding: 40px;
+section ul,ol {
+  display: block;
+  padding: 40px;
 }
 
-#licoes_aprendidas, #licoes_a_aprender, h2 {
+#licoes_aprendidas,#licoes_a_aprender,h2 {
   display: inline-block;
   margin: 160px 20px 0 0;
   vertical-align: top;
@@ -56,23 +56,24 @@ ul, ol {
 h2 {
   background-color: blueviolet;
   border: none;
-  color: white
+  color: white;
 }
 
 .content {
   text-align: center;
 }
 
-.lado-esquerdo, .lado-direito {
+.lado-esquerdo,.lado-direito {
   display: inline-block;
   width: 40%;
-  margin: 30px 20px 40px 20px;
+  margin: 30px 20px 40px;
   vertical-align: top;
 }
 
-a, p {
+a,p {
   display: inline-block;
   padding-right: 40px;
+  line-height: normal;
 }
 
 #rodape {
