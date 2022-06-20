@@ -10,13 +10,40 @@ body {
 }
 
 #cabecalho {
+  display: block;
+  width: 100%;
   top: 0;
   position: fixed;
+  background-color: pink;
+}
+
+nav ul li {
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+nav ul {
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 20px;
+  color: blueviolet;
+}
+
+#minha_foto {
+  display: inline-block;
+  margin: 120px 40px 0 0;
+  width: 250px;
+  border-radius: 0 0 50% 0;
 }
 
 .lado-esquerdo, .lado-direito {
   display: inline-block;
   width: 40%;
-  margin: 30px 20px 40px 20px;
+  margin: 30px 20px 40px;
   vertical-align: top;
 }
