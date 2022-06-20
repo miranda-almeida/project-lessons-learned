@@ -6,3 +6,10 @@
   top: 0;
   position: fixed;
 }
+
+.lado-esquerdo, .lado-direito {
+  display: inline-block;
+  width: 40%;
+  margin: 30px 20px 40px 20px;
+  vertical-align: top;
+}
