@@ -70,12 +70,12 @@ h2 {
   vertical-align: top;
 }
 
-a , p {
+a , p , table {
   display: inline-block;
   padding-right: 40px;
   font-size: 18px;
   font-family: sans-serif;
-  color: blueviolet;
+  color: rgb(15, 15, 15);
   line-height: normal;
 }
 
