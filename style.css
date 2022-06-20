@@ -41,9 +41,40 @@ h1 {
   border-radius: 0 0 50% 0;
 }
 
+ul, ol {
+  display: block;
+  padding: 40px;
+}
+
+.licoes_aprendidas, .licoes_a_aprender, h2 {
+  display: inline-block;
+  margin: 160px 20px 0 0;
+  vertical-align: top;
+  border: 2px dotted pink;
+}
+
+h2 {
+  background-color: blueviolet;
+  border: none;
+  color: white
+}
+
+.content {
+  text-align: center;
+}
+
 .lado-esquerdo, .lado-direito {
   display: inline-block;
   width: 40%;
-  margin: 30px 20px 40px;
+  margin: 30px 20px 40px 20px;
   vertical-align: top;
+}
+
+a, p {
+  display: inline-block;
+  padding-right: 40px;
+}
+
+#rodape {
+  text-align: center;
 }
